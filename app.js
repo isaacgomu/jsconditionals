@@ -28,3 +28,28 @@ if (themeAnswer === "light") {
 } else {
   document.body.style.backgroundColor = "red";
 }
+
+let age = 17;
+let movieRating = "PG";
+
+if (age > 17) {
+  console.log("You can watch any movie!");
+} else if (age === 17) {
+  if (movieRating === "PG") {
+    console.log("You can watch the movie!");
+  } else if (movieRating === "U") {
+    console.log("You can watch the movie!");
+  } else if (movieRating === "12") {
+    console.log("You can watch the movie!");
+  } else if (movieRating === "15") {
+    console.log("You can watch the movie!");
+  } else if (movieRating === "18") {
+    console.log("You cannot watch the movie!");
+  }
+} else if (age < 8) {
+  if (movieRating === "U") {
+    console.log("You can watch the movie!");
+  } else {
+    console.log("You cannot watch the movie!");
+  }
+}
